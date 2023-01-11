@@ -1,0 +1,30 @@
+core,C1(R1)=C3C(=C(R1)C2=NSN=C12)OC(R2)C(R2)O3,,,,,,SMILES string of the BTZ molecule with R1, R2 as growth points at carbons 4,5,6,7
+,,,,
+group,cast,,,,,comment: TABLE S1
+R1,[H],,,
+R1,Y,,,
+R1,N(X)(Y),,,amine derivative
+R1,OC(=O)Y,,,Ester
+R1,OY,,,
+R1,\[N+](X)=C([O-])/Y,,,, Amide derivative
+R2,[H],,,
+R2,X,,,
+,,,,
+types,weight,,,,,comment:TABLE S2
+[H],200,,needs to be the first,
+C,100,,,
+CC,50,,,
+CCC,15,,,
+C(C)C,15,,,
+CCCC,10,,,
+C(C)CC,10,,,
+CC(C)C,10,,,
+CCOY,10,,,
+CCN(Y)(Y),5,,,
+,,,,
+position,symmetry,group,,,,comment: groups in order of appearance in the core (positions)
+1,1,R1,,
+2,2,R1,,"if ""symmetry"" is the same, the groups will be the same"
+3,1,R2,,
+4,2,R2,,
+,,,,,,,,,Note: always end file with the commas
